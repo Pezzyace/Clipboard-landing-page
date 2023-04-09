@@ -1,0 +1,351 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+p{
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  line-height: 2;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+nav{
+  background-color: hsla(0, 0%, 100%, 0.548);
+  margin-bottom: 100px;
+}
+.header{
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: -300px;
+  align-items: center;
+}
+.bg-img1{
+  width: 100%;
+}
+.logo{
+  height: 100px;
+  margin-bottom: 50px;
+}
+.head{
+  font-size: 35px;
+  margin-bottom: 15px;
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+}
+.body{
+  font-size: 15px;
+  margin-bottom: 60px;
+  width: 30%;
+  color: hsl(201, 11%, 66%);
+  text-align: center;
+}
+.download-for-ios-btn, .download-for-mac-btn{
+  border-style: none;
+  padding: 20px 50px;
+  border-radius: 30px;
+  margin-right: 10px;
+}
+.download-for-ios-btn{
+  background-color: hsl(171, 66%, 44%);
+  color: white;
+  font-size: 17px;
+  box-shadow: 9px 10px 10px hsla(170, 89%, 17%, 0.25);
+  cursor: pointer;
+  transition: opacity 0.5s;
+}
+.download-for-mac-btn{
+  background-color: hsl(233, 100%, 69%);
+  color: white;
+  font-size: 17px;
+  box-shadow: 9px 10px 10px hsla(233, 100%, 60%, 0.25);
+  cursor: pointer;
+  transition: opacity 0.5s;
+}
+.download-for-ios-btn:hover, .download-for-mac-btn:hover{
+  opacity: 0.7;
+}
+
+
+/**-----------------------------BODY-----------------------------------------**/
+
+.first-container, .third-container, .fourth-container, .fifth-container{
+  text-align: center;
+  padding-top: 100px 0px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.second-head, .third-head, .fourth-head, .fifth-head{
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+}
+.second-body, .third-body, .fourth-body, .fifth-body{
+  font-size: 15px;
+  width: 30%;
+  color: hsl(201, 11%, 66%);
+  text-align: center;
+  margin-bottom: 100px;
+}
+.second-container{
+  display: flex;
+  align-items: center;
+  margin-bottom: 150px;
+}
+.monitor{
+  width: 50%;
+  margin-left: -50px;
+}
+.computer-details{
+  margin-left: 100px
+}
+.quick-search, .icloud, .history{
+  font-size: 25px;
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+}
+.quick-search-details, .icloud-details, .history-details{
+  font-size: 15px;
+  width: 55%;
+  margin-bottom: 50px;
+  color: hsl(201, 11%, 66%);
+}
+.properties-container{
+  margin: 0 auto;
+  display: flex;
+  width: 70%;
+  margin-bottom: 150px;
+  justify-content: space-between;
+}
+.blacklist, .snippets, .preview{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 30%;
+  margin: 0 auto;
+}
+.blacklist-img, .snippets-img{
+  width: 15%;
+  margin-bottom: 20px;
+}
+.preview-img{
+  margin-bottom: 18px;
+}
+.blacklist-head, .snippets-head, .preview-head{
+  font-size: 25px;
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+}
+.blacklist-body, .snippets-body, .preview-body{
+  font-size: 15px;
+  color: hsl(201, 11%, 66%);
+}
+.companies-support{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.fifth-body{
+  margin-bottom: 40px;
+}
+
+
+/**-----------------------------FOOTER------------------------------------**/
+
+footer{
+  background-color: hsl(210, 9%, 86%);
+  margin-top: 100px;
+  padding: 20px 0px;
+}
+.top-footer{
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  align-items: center;
+}
+.bottom-logo{
+  height: 60px;
+  margin-right: 150px;
+}
+.footer-links{
+  display: flex;
+  width: 70%;
+}
+.footer-link{
+  text-decoration: none;
+  cursor: pointer;
+  line-height: 2.5;
+  color: hsl(213, 10%, 21%);
+  list-style: none;
+  font-size: 15px;
+}
+.footer-link:hover{
+  color: hsl(171, 66%, 44%);
+}
+.categories{
+  margin-right: 50px
+}
+.share-icon{
+  margin-right: 10px;
+  height: 20px;
+  cursor: pointer;
+  padding: 7px;
+  background-color: hsla(0, 0%, 0%, 0);
+  border-radius: 50px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  filter: invert(0%) sepia(100%) saturate(100%) hue-rotate(288deg) 
+        brightness(102%) contrast(102%);
+}
+.share-icon:hover{
+  background-color: hsla(215, 65%, 18%, 0);
+}
+.attribution { 
+  font-size: 11px;
+  text-align: center; 
+}
+    
+.attribution a {
+  color: hsl(228, 45%, 44%); 
+}
+
+
+
+@media (max-width: 375px){
+  .header{
+    margin: 0;
+  }
+  p{
+    line-height: 1.5;
+  }
+  .head{
+    text-align: center;
+    font-size: 31px;
+    width: 80%;
+  }
+  .body{
+    width: 75%;
+    font-size: 16px;
+  }
+  .top-buttons, .bottom-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .download-for-ios-btn{
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 13px ;
+    width: 80%;
+    font-size: 13px;
+  }
+  .download-for-mac-btn{
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 13px ;
+    width: 80%;
+    font-size: 13px;
+  }
+  .second-head, .third-head, .fourth-head, .fifth-head{
+    width: 70%;
+    font-size: 25px;
+    line-height: 1.3;
+    margin-bottom: 15px
+  }
+  .second-body, .third-body, .fourth-body, .fifth-body{
+    width: 70%;
+  }
+  .second-container{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .computer-details{
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+  }
+  .monitor{
+    width: 80%;
+    margin: 0;
+    margin-bottom: 50px;
+  }
+  .quick-search, .icloud, .history{
+    margin-bottom: 10px;
+  }
+  .quick-search-details, .icloud-details, .history-details{
+    margin: 0 auto;
+    width: 80%;
+    font-size: 15px;
+    margin-bottom: 50px;
+  }
+  .devices{
+    width: 80%;
+    margin-bottom: 40px;
+  }
+  .properties-container{
+    flex-direction: column;
+    width: 100%;
+  }
+  .blacklist, .snippets, .preview{
+    width: 80%;
+    margin-bottom: 50px;
+  }
+  .blacklist-body, .snippets-body, .preview-body{
+    font-size: 15px;
+    width: 90%;
+  }
+  .snippets-head, .blacklist-head, .preview-head{
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+  .companies-support{
+    flex-direction: column;
+  }
+  .google, .ibm, .microsoft, .vector, .hp{
+    width: 40%;
+    margin-bottom: 50px;
+  }
+  .top-footer{
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    align-items: center;
+    padding-top: 50px;
+  }
+  .bottom-logo{
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .footer-links{
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .categories{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+  }
+  .footer-link{
+    margin: 0 auto;
+    align-items: center;
+    font-size: 15px;
+  }
+}
